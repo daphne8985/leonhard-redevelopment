@@ -1,0 +1,21 @@
+title: Leonhard Redevelopment
+description: Project documentation for Leonhard Redevelopment
+baseurl: "/leonhard-redevelopment"
+url: ""
+
+theme: minima
+
+markdown: kramdown
+permalink: pretty
+
+header_pages:
+  - docs/overview.md
+  - docs/timeline.md
+  - docs/faq.md
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
